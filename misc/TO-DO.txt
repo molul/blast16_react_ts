@@ -1,7 +1,3 @@
-Poner fuente chula
-
-Hacer plantilla principal
-
 Crear componente carrusel de imágenes
 
 ScrollToTop

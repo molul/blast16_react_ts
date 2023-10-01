@@ -5,8 +5,7 @@
 @layer base {
   body {
     background-image: url("/img/bg.webp");
-    background-attachment: fixed;
-    background-size: cover;
+    @apply font-main bg-cover bg-fixed;
   }
 
   a {

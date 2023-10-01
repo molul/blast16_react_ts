@@ -9,7 +9,7 @@ const MenuItem = ({ type, text, icon, url }: Props) => {
   return (
     <>
       {type === "text" ? (
-        <div className="uppercase">
+        <div className="uppercase font-bold text-lg">
           <a href={url} className="text-white hover:text-primary">
             {text}
           </a>
