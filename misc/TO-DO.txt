@@ -1,5 +1,3 @@
-Rehacer en typescript
-
 Poner fuente chula
 
 Hacer plantilla principal

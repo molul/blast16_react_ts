@@ -7,12 +7,21 @@ interface Props {
 
 const MenuItem = ({ type, text, icon, url }: Props) => {
   return (
-    <div className="uppercase">
-      qwe
-      <a href={url} className="text-white hover:text-primary">
-        {text}
-      </a>
-    </div>
+    <>
+      {type === "text" ? (
+        <div className="uppercase">
+          <a href={url} className="text-white hover:text-primary">
+            {text}
+          </a>
+        </div>
+      ) : (
+        <div className="uppercase">
+          <a href={url} className="text-white hover:text-primary">
+            {icon}
+          </a>
+        </div>
+      )}
+    </>
   );
 };
 
