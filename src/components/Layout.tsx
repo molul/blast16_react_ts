@@ -1,12 +1,13 @@
 import Content from "./Content";
+import Footer from "./Footer";
 import Header from "./Header";
 
 const Layout = () => {
   return (
-    <div className="text-white flex flex-col justify-between min-h-screen bg-black bg-opacity-20">
+    <div className="text-white flex flex-col justify-between min-h-screen bg-black bg-opacity-20 w-full">
       <Header />
       <Content />
-      <div className="bg-green-400">Footer</div>
+      <Footer />
     </div>
   );
 };
