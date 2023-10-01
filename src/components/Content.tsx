@@ -1,7 +1,7 @@
 const Content = () => {
   return (
-    <div className="flex-1 flex justify-center w-full p-12">
-      <div className="w-full max-w-7xl">Content</div>
+    <div className="flex flex-1 justify-center w-full p-4 lg:p-12">
+      <div className="w-full max-w-7xl bg-red-400">Content</div>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 export const footerItems = [
   { type: "text", text: "Tripware", url: "http://www.tripware.es/" },
   { type: "text", text: "SNESES", url: "http://sneses.tripware.es/" },
-  { type: "text", text: "twitter", url: "https://twitter.com/tripware_dev" },
-  { type: "text", text: "youtube", url: "https://www.youtube.com/c/Tripware" },
+  { type: "text", text: "Twitter", url: "https://twitter.com/tripware_dev" },
+  { type: "text", text: "YouTube", url: "https://www.youtube.com/c/Tripware" },
   {
     type: "text",
     text: "Donate",
