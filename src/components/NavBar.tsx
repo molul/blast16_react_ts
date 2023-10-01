@@ -3,7 +3,7 @@ import MenuItem from "./MenuItem";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-center space-x-8 py-6 w-full">
+    <div className="flex flex-col lg:flex-row justify-center space-x-0 lg:space-x-8 py-6 w-full">
       {menuItems.map((menuItem, index) => {
         return (
           <MenuItem
