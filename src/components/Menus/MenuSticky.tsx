@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import NavBar from "./NavBar";
+import NavBar from "../NavBar";
 
 const MenuSticky = () => {
   const [showMenu, setShowMenu] = useState(false);

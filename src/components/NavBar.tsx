@@ -1,5 +1,5 @@
 import { menuItems } from "../assets/data/menuItems";
-import MenuItem from "./MenuItem";
+import MenuItem from "./Menus/MenuItem";
 import TwitterIconLink from "./TwitterIconLink";
 
 interface Props {

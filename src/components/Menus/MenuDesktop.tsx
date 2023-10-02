@@ -1,5 +1,5 @@
 import MenuSticky from "./MenuSticky";
-import NavBar from "./NavBar";
+import NavBar from "../NavBar";
 
 const MenuDesktop = () => {
   return (
