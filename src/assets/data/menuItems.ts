@@ -9,8 +9,5 @@ export const menuItems = [
   { type: "text", text: "FAQ", url: "#faq" },
   { type: "text", text: "SNESES", url: "http://sneses.tripware.es/" },
   { type: "text", text: "Tripware", url: "http://www.tripware.es/" },
-  { type: "icon", icon: "twitter", url: "https://twitter.com/tripware_dev" },
-  { type: "icon", icon: "youtube", url: "https://www.youtube.com/c/Tripware" },
-  //FaSquareXTwitter,
-  //BsYoutube
+  // { type: "icon", icon: BsYoutube, url: "https://www.youtube.com/c/Tripware" },
 ];

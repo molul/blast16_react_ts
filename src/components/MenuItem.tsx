@@ -1,26 +1,16 @@
 interface Props {
-  type: string;
-  text?: string;
-  icon?: string;
+  text: string;
   url: string;
 }
 
-const MenuItem = ({ type, text, icon, url }: Props) => {
+const MenuItem = ({ text, url }: Props) => {
   return (
     <>
-      {type === "text" ? (
-        <div className="uppercase font-bold text-lg">
-          <a href={url} className="text-white hover:text-primary">
-            {text}
-          </a>
-        </div>
-      ) : (
-        <div className="uppercase">
-          <a href={url} className="text-white hover:text-primary">
-            {icon}
-          </a>
-        </div>
-      )}
+      <div className="uppercase font-bold text-lg">
+        <a href={url} className="text-white hover:text-primary">
+          {text}
+        </a>
+      </div>
     </>
   );
 };

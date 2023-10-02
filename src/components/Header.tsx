@@ -1,13 +1,16 @@
-import NavBar from "./NavBar";
+import MenuDesktop from "./MenuDesktop";
+import MenuMobile from "./MenuMobile";
 
 const Header = () => {
   return (
-    <div className="bg-black bg-opacity-70 flex flex-col items-center justify-between">
-      <div>
-        <img src="/img/logo.webp" alt="logo" />
+    <>
+      <div className="hidden lg:block">
+        <MenuDesktop />
       </div>
-      <NavBar />
-    </div>
+      <div className="lg:hidden">
+        <MenuMobile />
+      </div>
+    </>
   );
 };
 
