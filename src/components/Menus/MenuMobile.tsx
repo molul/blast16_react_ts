@@ -13,7 +13,7 @@ const MenuMobile = () => {
     <>
       <div className="bg-black bg-opacity-70 flex flex-row items-center justify-between overflow-hidden">
         <div>
-          <img className="h-20" src="/img/logoMobile.webp" alt="logo" />
+          <img className="h-16" src="/img/logoMobile.webp" alt="logo" />
         </div>
         <div className="text-right px-4">
           <MenuButton toggleMenu={toggleMenu} mobileNavOpen={mobileNavOpen} />

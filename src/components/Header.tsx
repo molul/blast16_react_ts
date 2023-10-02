@@ -7,6 +7,9 @@ const Header = () => {
       <div className="hidden lg:block">
         <MenuDesktop />
       </div>
+      <div className="lg:hidden">
+        <MenuMobile />
+      </div>
     </>
   );
 };
