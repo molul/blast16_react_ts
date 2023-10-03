@@ -14,22 +14,28 @@ const Cover = () => {
   };
 
   return (
-    <div className="space-y-4">
-      <div className="">
-        <strong>Blast 16</strong> is an emulator frontend for Raspberry Pi
-        inspired on the Sega Mega Drive/Genesis, and developed with{" "}
-        <a href="https://love2d.org/" target="_blank" rel="noopener noreferrer">
-          LÖVE
-        </a>
-        &nbsp;framework.
+    <section>
+      <div className="space-y-4">
+        <div className="">
+          <strong>Blast 16</strong> is an emulator frontend for Raspberry Pi
+          inspired on the Sega Mega Drive/Genesis, and developed with{" "}
+          <a
+            href="https://love2d.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LÖVE
+          </a>
+          &nbsp;framework.
+        </div>
+        <YouTube
+          videoId="MKcvY2zXHGg"
+          opts={opts}
+          onReady={onPlayerReady}
+          className={"youtubeContainer"}
+        />
       </div>
-      <YouTube
-        videoId="MKcvY2zXHGg"
-        opts={opts}
-        onReady={onPlayerReady}
-        className={"youtubeContainer"}
-      />
-    </div>
+    </section>
   );
 };
 

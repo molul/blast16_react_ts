@@ -1,7 +1,8 @@
-menu y footer links: target (blank)
+Key Features: meter a href
 
 Crear componente carrusel de imágenes
 
 subir todas las descargas a tripware.es
+	Ojo a LICENSE en Key Features
 
 ScrollToTop
