@@ -2,7 +2,7 @@ import { IconContext } from "react-icons";
 import { BsYoutube } from "react-icons/bs";
 
 interface Props {
-  menu: string;
+  menu?: string;
 }
 const YoutubeIconLink = ({ menu }: Props) => {
   return (
