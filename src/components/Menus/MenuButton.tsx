@@ -1,9 +1,9 @@
 interface Props {
-  mobileNavOpen: boolean;
+  open: boolean;
   toggleMenu: () => void;
 }
 
-const MenuButton = ({ toggleMenu, mobileNavOpen }: Props) => {
+const MenuButton = ({ toggleMenu, open }: Props) => {
   return (
     <>
       <div
@@ -12,17 +12,17 @@ const MenuButton = ({ toggleMenu, mobileNavOpen }: Props) => {
       >
         <span
           className={`h-1 w-8 bg-white rounded-lg transform transition duration-300 ease-in-out ${
-            mobileNavOpen ? "rotate-45 translate-y-3.5" : ""
+            open ? "rotate-45 translate-y-3.5" : ""
           }`}
         />
         <span
           className={`h-1 w-8 bg-white rounded-lg transition-all duration-300 ease-in-out ${
-            mobileNavOpen ? "opacity-0" : "opacity-100"
+            open ? "opacity-0" : "opacity-100"
           }`}
         />
         <span
           className={`h-1 w-8 bg-white rounded-lg transform transition duration-300 ease-in-out ${
-            mobileNavOpen ? "-rotate-45 -translate-y-3.5" : ""
+            open ? "-rotate-45 -translate-y-3.5" : ""
           }`}
         />
       </div>

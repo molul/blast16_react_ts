@@ -1,6 +1,6 @@
 import { useState } from "react";
+import MenuMobileContent from "./MenuMobileContent";
 import MenuButton from "./MenuButton";
-// import MenuMobileContent from "./MenuMobileContent";
 
 const MenuMobile = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -11,14 +11,17 @@ const MenuMobile = () => {
 
   return (
     <>
-      <div className="bg-black bg-opacity-70 flex flex-row items-center justify-between overflow-hidden">
+      <div className="bg-black bg-opacity-90 flex  items-center justify-between w-full fixed top-0 left-0 z-50 h-16 py-10	text-white">
         <div>
-          <img className="h-16" src="/img/logoMobile.webp" alt="logo" />
+          <img className="h-14" src="/img/logoMobile.webp" alt="logo" />
         </div>
-        <div className="text-right px-4">
-          <MenuButton toggleMenu={toggleMenu} mobileNavOpen={mobileNavOpen} />
+
+        {/* hamburger button */}
+        <div className=" px-4">
+          <MenuButton toggleMenu={toggleMenu} open={mobileNavOpen} />
         </div>
-        {/* <MenuMobileContent mobileNavOpen={mobileNavOpen} /> */}
+
+        <MenuMobileContent open={mobileNavOpen} />
       </div>
     </>
   );

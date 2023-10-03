@@ -1,5 +1,5 @@
 import MenuSticky from "./MenuSticky";
-import NavBar from "../NavBar";
+import NavBar from "./NavBar";
 
 const MenuDesktop = () => {
   return (
@@ -8,7 +8,9 @@ const MenuDesktop = () => {
         <div>
           <img src="/img/logo.webp" alt="logo" />
         </div>
+
         <NavBar type="normal" />
+
         <MenuSticky />
       </div>
     </>

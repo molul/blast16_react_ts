@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: "#00dbef",
         primaryHover: "#2bb3bf",
+        secondary: "#b353c3",
       },
     },
   },

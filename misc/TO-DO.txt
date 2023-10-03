@@ -1,9 +1,7 @@
-menu sticky
-
-footer responsive
-
 menu y footer links: target (blank)
 
 Crear componente carrusel de imágenes
+
+subir todas las descargas a tripware.es
 
 ScrollToTop

@@ -7,7 +7,16 @@ export const menuItems = [
   },
   { type: "text", text: "Tutorials", url: "#tutorials" },
   { type: "text", text: "FAQ", url: "#faq" },
-  { type: "text", text: "SNESES", url: "http://sneses.tripware.es/" },
-  { type: "text", text: "Tripware", url: "http://www.tripware.es/" },
-  // { type: "icon", icon: BsYoutube, url: "https://www.youtube.com/c/Tripware" },
+  {
+    type: "text",
+    text: "SNESES",
+    url: "http://sneses.tripware.es/",
+    target: "_blank",
+  },
+  {
+    type: "text",
+    text: "Tripware",
+    url: "http://www.tripware.es/",
+    target: "_blank",
+  },
 ];
