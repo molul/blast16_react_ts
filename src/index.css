@@ -5,7 +5,7 @@
 @layer base {
   body {
     background-image: url("/img/bg.webp");
-    @apply font-main bg-cover bg-fixed bg-center;
+    @apply font-main bg-cover bg-fixed bg-center bg-black;
   }
 
   a {
