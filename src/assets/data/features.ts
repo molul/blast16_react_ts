@@ -11,5 +11,15 @@ export const features = {
     "Delete games from the frontend. ",
     "Load/delete save states (limited to four slots).",
   ],
-  other: [],
+  other: [
+    "Background music written by Loop & Pixel (https://www.youtube.com/channel/UCgRtag7c4icCymC95QC1NHQ).",
+    "Compatible with MEGAPi(http://retroflag.com/MEGAPi-CASE-M.html) case's reset and shutdown scripts.",
+    "Easily copy all your games from an USB drive on boot.",
+    "Easy to update.",
+    "Display boxarts. If a game's boxart isn't found, a generic one based on the selected logo will be displayed instead.",
+    "Localization.",
+    "Select different console logos.",
+    "Backup and restore system.",
+    "Exit to command line, reboot and shutdown options.",
+  ],
 };

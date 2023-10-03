@@ -1,5 +1,6 @@
-import Cover from "./Content/Cover";
-import KeyFeatures from "./Content/KeyFeatures";
+import Cover from "./sections/Cover";
+import KeyFeatures from "./sections/KeyFeatures";
+import OtherFeatures from "./sections/OtherFeatures";
 
 const Content = () => {
   return (
@@ -7,6 +8,7 @@ const Content = () => {
       <div className="w-full max-w-6xl space-y-16 py-4">
         <Cover />
         <KeyFeatures />
+        <OtherFeatures />
       </div>
     </div>
   );
