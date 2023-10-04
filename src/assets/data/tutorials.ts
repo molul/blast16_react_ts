@@ -52,11 +52,6 @@ export const tutorials = [
         text: "Tutorial completo por TuberViejuner",
         url: "https://www.youtube.com/watch?v=5jcqukpl0Vg",
       },
-      {
-        type: "video",
-        text: "Tutorial completo por Sir Gamba",
-        url: "https://www.youtube.com/watch?v=Lk-eBP4zq7A",
-      },
     ],
   },
   {

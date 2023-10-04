@@ -1,4 +1,3 @@
-import React from "react";
 import { tutorials } from "../../assets/data/tutorials";
 import Title from "../Title";
 
