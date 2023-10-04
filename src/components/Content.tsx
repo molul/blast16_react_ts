@@ -1,4 +1,5 @@
 import Cover from "./sections/Cover";
+import FAQ from "./sections/FAQ";
 import KeyFeatures from "./sections/KeyFeatures";
 import OtherFeatures from "./sections/OtherFeatures";
 import Tutorials from "./sections/Tutorials";
@@ -17,6 +18,7 @@ const Content = () => {
         <OtherFeatures />
 
         <Tutorials />
+        <FAQ />
       </div>
     </div>
   );

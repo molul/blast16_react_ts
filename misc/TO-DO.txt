@@ -1,8 +1,18 @@
-Key Features: meter a href
+Slideshow
 
-Crear componente carrusel de imágenes
+Downloads
+	Donate button
+	Secciones
+		Latest build
+			Full image
+			USB update
+			Changelog
+			User manual
+			Custom overlay kit
+			Old builds
+			Retroarch source copied
+			Boxarts
 
-subir todas las descargas a tripware.es
-	Ojo a tutorials
 
-ScrollToTop
+	subir todas las descargas a tripware.es
+		Ojo a tutorials
