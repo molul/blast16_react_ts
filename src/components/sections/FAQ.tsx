@@ -8,8 +8,11 @@ const FAQ = () => {
 
       <div className="break-words space-y-6">
         {faq.map((item, index) => (
-          <div key={index} className="bg-black bg-opacity-40 p-4 rounded">
-            <div className="font-bold">Q: {item.q}</div>
+          <div
+            key={index}
+            className="bg-black bg-opacity-40 p-4 rounded space-y-2"
+          >
+            <div className="font-bold border-b ">Q: {item.q}</div>
             <div>A: {item.a}</div>
           </div>
         ))}
