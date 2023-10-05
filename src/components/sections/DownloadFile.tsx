@@ -20,17 +20,26 @@ interface Props {
 export const DownloadFile = ({ data }: Props) => {
   return (
     <div className=" space-y-2">
-      <div className="flex items-center space-x-2">
-        <div>
-          {data.icon === "pdf" && <BsFiletypePdf size={25} />}
-          {data.icon === "link" && <BsLink45Deg size={25} />}
-          {data.icon === "zip" && <BsFillFileZipFill size={25} />}
-          {data.icon === "txt" && <BsFiletypeTxt size={25} />}
+      {/* First row: icon, name and button */}
+      <div className="flex gap-2 justify-between items-center border-b border-white pb-2">
+        <div className="flex items-center space-x-2">
+          <div>
+            {data.icon === "pdf" && <BsFiletypePdf size={25} />}
+            {data.icon === "link" && <BsLink45Deg size={25} />}
+            {data.icon === "zip" && <BsFillFileZipFill size={25} />}
+            {data.icon === "txt" && <BsFiletypeTxt size={25} />}
+          </div>
+          <div className="font-bold text-lg lg:text-xl lg:pt-1">
+            {data.name}
+          </div>
         </div>
-        <div className="font-bold text-xl ">{data.name}</div>
       </div>
-      {data.size && <div className="text-xs">{data.size}</div>}
-      {data.description && <div>{data.description}</div>}
+
+      <div className="space-y-2">
+        {data.size && <div className="text-xs">{data.size}</div>}
+        {data.description && <div>{data.description}</div>}
+      </div>
+
       <div className="py-2">
         <a
           href={data.url}
