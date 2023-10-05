@@ -1,4 +1,5 @@
 import Cover from "./sections/Cover";
+import Downloads from "./sections/Downloads";
 import FAQ from "./sections/FAQ";
 import KeyFeatures from "./sections/KeyFeatures";
 import OtherFeatures from "./sections/OtherFeatures";
@@ -16,6 +17,8 @@ const Content = () => {
         {/* <Screenshots /> */}
 
         <OtherFeatures />
+
+        <Downloads />
 
         <Tutorials />
         <FAQ />
