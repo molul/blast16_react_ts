@@ -6,10 +6,10 @@ const Tutorials = () => {
   return (
     <div>
       <Title text="Tutorials" />
-      <div className="space-y-6">
+      <div className="space-y-6 ">
         {tutorials.map((tutorial, index) => {
           return (
-            <div key={index}>
+            <div key={index} className="">
               <Tutorial language={tutorial.language} data={tutorial.data} />
             </div>
           );

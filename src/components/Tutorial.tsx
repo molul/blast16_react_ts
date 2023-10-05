@@ -15,10 +15,13 @@ interface Props {
 
 const Tutorial = ({ language, data }: Props) => {
   return (
-    <div className="bg-black bg-opacity-40 p-4 rounded">
-      <div className="pb-2 uppercase font-bold text-xl mb-2"> {language}</div>
+    <div className="bg-black bg-opacity-40 p-4 rounded-lg border border-white">
+      <div className="pb-2 uppercase font-bold text-xl mb-4 border-b border-white">
+        {" "}
+        {language}
+      </div>
       <div className="break-words ">
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {data.map((item, index) => {
             return (
               <div key={index} className="flex space-x-3 items-center">

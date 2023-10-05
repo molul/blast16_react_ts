@@ -11,13 +11,8 @@ export const DownloadsContent = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {item.files.map((file, index2) => {
                 return (
-                  <div
-                    key={index2}
-                    className="bg-black bg-opacity-40 rounded p-4"
-                  >
-                    <div>
-                      <DownloadFile data={file} />
-                    </div>
+                  <div key={index2}>
+                    <DownloadFile data={file} />
                   </div>
                 );
               })}
