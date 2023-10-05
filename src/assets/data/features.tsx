@@ -1,9 +1,16 @@
 export const features = {
   key: [
-    "Play Mega Drive/Genesis (.bin, .smd, .gen, and .md), Sega CD/Mega CD (.chd, .img, .iso, single .bin + .cue, several .bin + .cue), Mega Drive 32X / Sega 32X (.bin, .32x), Master System (.sms) and Game Gear (.gg) games.",
+    <>
+      Play <strong>Mega Drive/Genesis</strong> (.bin, .smd, .gen, and .md),{" "}
+      <strong>Sega CD/Mega CD</strong> (.chd, .img, .iso, single .bin + .cue,
+      several .bin + .cue), <strong>Mega Drive 32X/Sega 32X</strong> (.bin,
+      .32x), <strong>Master System</strong> (.sms) and{" "}
+      <strong>Game Gear</strong> (.gg) games.
+    </>,
     "Zip and 7z ROM formats are also supported.",
     <>
-      Powered by Retroarch, and Genesis Plus GX and PicoDrive cores (
+      Powered by <strong>Retroarch</strong>, and{" "}
+      <strong>Genesis Plus GX</strong> and <strong>PicoDrive</strong> cores (
       <a href="/doc/LICENSE.txt" target="_blank">
         read license here
       </a>

@@ -1,7 +1,7 @@
 export const tutorials = [
   {
     language: "English",
-    content: [
+    data: [
       {
         type: "pdf",
         text: "Official quick start guide",
@@ -41,7 +41,7 @@ export const tutorials = [
   },
   {
     language: "Spanish",
-    content: [
+    data: [
       {
         type: "pdf",
         text: "Guía de inicio rápido oficial",
@@ -56,7 +56,7 @@ export const tutorials = [
   },
   {
     language: "Portuguese",
-    content: [
+    data: [
       {
         type: "post",
         text: "Installation guide by Rafael Rigues",
