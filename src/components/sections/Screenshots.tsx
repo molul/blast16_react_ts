@@ -3,24 +3,25 @@ import "react-slideshow-image/dist/styles.css";
 import "../../slideStyles.css";
 import Title from "../Title";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
-
-const divStyle = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  backgroundSize: "cover",
-  width: "1280px",
-};
+import { IconContext } from "react-icons";
 
 const properties = {
   prevArrow: (
-    <button className=" ml-4 flex items-center justify-center bg-primary rounded-full opacity-80">
-      <RiArrowLeftSLine size={50} />
+    <button className="ml-2 md:ml-4 flex items-center justify-center bg-primary rounded-full opacity-80">
+      <IconContext.Provider
+        value={{ className: "w-6 h-6 md:w-10 md:h-10 lg:w-12 lg:h-12" }}
+      >
+        <RiArrowLeftSLine />
+      </IconContext.Provider>
     </button>
   ),
   nextArrow: (
-    <button className="mr-4 flex items-center justify-center bg-primary rounded-full opacity-80">
-      <RiArrowRightSLine size={50} />
+    <button className="mr-2 md:mr-4 flex items-center justify-center bg-primary rounded-full opacity-80">
+      <IconContext.Provider
+        value={{ className: "w-6 h-6 md:w-10 md:h-10 lg:w-12 lg:h-12" }}
+      >
+        <RiArrowRightSLine />
+      </IconContext.Provider>
     </button>
   ),
   duration: 3000,
@@ -44,7 +45,7 @@ const Screenshots = () => {
         <Slide {...properties}>
           {slideImages.map((slideImage, index) => (
             <div key={index} className="flex">
-              <div style={{ ...divStyle }}>
+              <div className="flex items-center justify-center bg-cover w-full">
                 <img src={slideImage} />
               </div>
             </div>
