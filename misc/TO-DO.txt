@@ -3,6 +3,7 @@ Programar el smoothScroll a cada sección
 Slideshow
 
 Downloads
+	Poner botón download/visit como icono
 	Subir downloads a tripware.es
 		Ojo a tutorials
 	Poner links en downloads.ts

@@ -10,7 +10,7 @@ const FAQ = () => {
         {faq.map((item, index) => (
           <div
             key={index}
-            className="bg-black bg-opacity-40 p-4 rounded-lg space-y-2"
+            className="bg-black bg-opacity-50 p-4 rounded-lg space-y-2"
           >
             <div className="font-bold border-b pb-2 ">Q: {item.q}</div>
             <div>A: {item.a}</div>
