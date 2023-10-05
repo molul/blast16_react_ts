@@ -1,6 +1,6 @@
 import { footerItems } from "../assets/data/footerItems";
-import TwitterIconLink from "./menus2/TwitterIconLink";
-import YoutubeIconLink from "./menus2/YoutubeIconLink";
+import TwitterIconLink from "./menus/TwitterIconLink";
+import YoutubeIconLink from "./menus/YoutubeIconLink";
 
 const Footer = () => {
   return (
