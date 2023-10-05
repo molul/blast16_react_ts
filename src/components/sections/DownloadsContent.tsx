@@ -3,11 +3,13 @@ import { DownloadFile } from "./DownloadFile";
 
 export const DownloadsContent = () => {
   return (
-    <div className="space-y-4">
+    <div className="space-y-8">
       {downloads.map((item, index) => {
         return (
           <div className="" key={index}>
-            <h2 className="font-bold text-2xl uppercase">{item.title}</h2>
+            <h2 className="font-bold text-xl lg:text-2xl uppercase">
+              {item.title}
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {item.files.map((file, index2) => {
                 return (

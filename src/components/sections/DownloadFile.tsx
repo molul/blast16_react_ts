@@ -29,7 +29,7 @@ export const DownloadFile = ({ data }: Props) => {
             {data.icon === "zip" && <BsFillFileZipFill size={25} />}
             {data.icon === "txt" && <BsFiletypeTxt size={25} />}
           </div>
-          <div className="font-bold text-lg lg:text-xl lg:pt-1">
+          <div className="font-bold text-md lg:text-lg lg:pt-1">
             {data.name}
           </div>
         </div>
@@ -40,7 +40,7 @@ export const DownloadFile = ({ data }: Props) => {
         {data.description && <div>{data.description}</div>}
       </div>
 
-      <div className="py-2">
+      <div className="py-2 text-base">
         <a
           href={data.url}
           target="_blank"
