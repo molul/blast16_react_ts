@@ -3,14 +3,14 @@ export const downloads = [
     title: "LATEST BUILD (1.0.18-release-20200118)",
     files: [
       {
-        name: "Blast16 1.0.18 SD Card Image",
+        name: "SD Card Image",
         description: "Download this if you haven't installed Blast16 yet",
         icon: "zip",
         size: "1.22GB",
         url: "",
       },
       {
-        name: "Blast16 1.0.18 USB Update",
+        name: "USB Update",
         description:
           "Download this if you already have Blast16 1.0.17 or lower",
         icon: "zip",
@@ -91,37 +91,37 @@ export const downloads = [
     title: "Boxarts",
     files: [
       {
-        name: "Mega Drive/Genesis boxarts",
+        name: "Mega Drive/Genesis",
         icon: "zip",
         size: "295MB",
         url: "",
       },
       {
-        name: "European Mega Drive boxarts",
+        name: "European Mega Drive",
         icon: "link",
         size: "",
         url: "",
       },
       {
-        name: "Master System boxarts",
+        name: "Master System",
         icon: "zip",
         size: "77MB",
         url: "",
       },
       {
-        name: "Game Gear boxarts",
+        name: "Game Gear",
         icon: "zip",
         size: "71MB",
         url: "",
       },
       {
-        name: "Mega CD/Sega CD boxarts",
+        name: "Mega CD/Sega CD",
         icon: "zip",
         size: "233MB",
         url: "",
       },
       {
-        name: "Mega Drive 32X/Sega 32X boxarts",
+        name: "Mega Drive 32X/Sega 32X",
         icon: "zip",
         size: "10MB",
         url: "",
