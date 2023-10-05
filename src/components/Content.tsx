@@ -4,7 +4,7 @@ import FAQ from "./sections/FAQ";
 import KeyFeatures from "./sections/KeyFeatures";
 import OtherFeatures from "./sections/OtherFeatures";
 import Tutorials from "./sections/Tutorials";
-// import Screenshots from "./sections/Screenshots";
+import Screenshots from "./sections/Screenshots";
 
 const Content = () => {
   return (
@@ -17,7 +17,7 @@ const Content = () => {
           <OtherFeatures />
         </div>
 
-        {/* <Screenshots /> */}
+        <Screenshots />
 
         <Downloads />
 
