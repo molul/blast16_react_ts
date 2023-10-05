@@ -19,7 +19,7 @@ interface Props {
 
 export const DownloadFile = ({ data }: Props) => {
   return (
-    <div className=" space-y-2 bg-black bg-opacity-40 rounded-lg border border-white p-4">
+    <div className=" space-y-2 bg-black bg-opacity-40 rounded-lg p-4">
       {/* First row: icon, name and button */}
       <div className="flex gap-2 justify-between items-center border-b border-white pb-2">
         <div className="flex items-center space-x-2">

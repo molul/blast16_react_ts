@@ -12,11 +12,12 @@ const Content = () => {
       <div className="w-full max-w-6xl space-y-16 py-4">
         <Cover />
 
-        <KeyFeatures />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <KeyFeatures />
+          <OtherFeatures />
+        </div>
 
         {/* <Screenshots /> */}
-
-        <OtherFeatures />
 
         <Downloads />
 

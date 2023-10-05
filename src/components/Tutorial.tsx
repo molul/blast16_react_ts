@@ -15,7 +15,7 @@ interface Props {
 
 const Tutorial = ({ language, data }: Props) => {
   return (
-    <div className="bg-black bg-opacity-40 p-4 rounded-lg border border-white">
+    <div className="bg-black bg-opacity-40 p-4 rounded-lg ">
       <div className="pb-2 uppercase font-bold text-xl mb-4 border-b border-white">
         {" "}
         {language}
