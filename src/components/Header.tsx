@@ -1,5 +1,5 @@
-import MenuDesktop from "./menus/MenuDesktop";
-import MenuMobile from "./menus/MenuMobile";
+import MenuDesktop from "./menus2/MenuDesktop";
+import MenuMobile from "./menus2/MenuMobile";
 
 const Header = () => {
   return (
