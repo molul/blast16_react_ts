@@ -1,18 +1,8 @@
+Programar el smoothScroll a cada sección
+
 Slideshow
 
 Downloads
-	Donate button
-	Secciones
-		Latest build
-			Full image
-			USB update
-			Changelog
-			User manual
-			Custom overlay kit
-			Old builds
-			Retroarch source copied
-			Boxarts
-
-
-	subir todas las descargas a tripware.es
+	Subir downloads a tripware.es
 		Ojo a tutorials
+	Poner links en downloads.ts
