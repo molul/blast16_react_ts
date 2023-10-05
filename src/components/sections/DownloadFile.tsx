@@ -33,7 +33,7 @@ export const DownloadFile = ({ data }: Props) => {
       {data.description && <div>{data.description}</div>}
       <div className="py-2">
         <a
-          href=""
+          href={data.url}
           target="_blank"
           className="bg-primaryHover text-white px-6 py-2 rounded"
         >
