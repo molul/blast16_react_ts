@@ -40,7 +40,7 @@ export const features = {
       <a href="http://retroflag.com/MEGAPi-CASE-M.html" target="_blank">
         MEGAPi
       </a>{" "}
-      case's reset and shutdown scripts.
+      cases' reset and shutdown scripts.
     </>,
     "Easily copy all your games from an USB drive on boot.",
     "Easy to update.",
