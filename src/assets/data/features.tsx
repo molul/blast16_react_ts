@@ -33,6 +33,7 @@ export const features = {
       >
         Loop & Pixel
       </a>
+      .
     </>,
     <>
       Compatible with{" "}
