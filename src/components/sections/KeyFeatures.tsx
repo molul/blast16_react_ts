@@ -7,7 +7,7 @@ const KeyFeatures = () => {
       <Title text="Key features" />
 
       <div className="break-words bg-black bg-opacity-50 p-4 rounded-lg">
-        <div className="divide-y divide-white space-y-4 mb-4">
+        <div className="divide-y divide-white space-y-4 pb-4">
           {features.key.map((feat, index) => (
             <div key={index}>{feat}</div>
           ))}
