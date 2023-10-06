@@ -6,11 +6,11 @@ const OtherFeatures = () => {
     <section className="space-y-8 ">
       <Title text="Other features" />
       <div className="	pl-8 break-words bg-black bg-opacity-50 p-4 rounded-lg">
-        <ul className="list-disc">
+        <div className="space-y-2">
           {features.other.map((feat, index) => (
-            <li key={index}>{feat}</li>
+            <div key={index} className="py-2">{feat}</div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   );
