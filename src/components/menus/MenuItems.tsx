@@ -3,7 +3,11 @@ import MenuItem from "./MenuItem";
 import TwitterIconLink from "./TwitterIconLink";
 import YoutubeIconLink from "./YoutubeIconLink";
 
-const MenuItems = () => {
+interface Props {
+  toggleMenu: () => void;
+}
+
+const MenuItems = ({ toggleMenu }: Props) => {
   return (
     <>
       {" "}
@@ -14,6 +18,7 @@ const MenuItems = () => {
             text={menuItem.text}
             url={menuItem.url}
             target={menuItem.target}
+            toggleMenu={toggleMenu}
           />
         );
       })}

@@ -2,9 +2,10 @@ import MenuItems from "./MenuItems";
 
 interface Props {
   open: boolean;
+  toggleMenu: () => void;
 }
 
-const MenuMobileContent = ({ open }: Props) => {
+const MenuMobileContent = ({ open, toggleMenu }: Props) => {
   return (
     <div
       className={`
@@ -26,7 +27,7 @@ const MenuMobileContent = ({ open }: Props) => {
 				space-y-6
 			`}
     >
-      <MenuItems />
+      <MenuItems toggleMenu={toggleMenu} />
     </div>
   );
 };

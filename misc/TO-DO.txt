@@ -1,3 +1,1 @@
-Programar el smoothScroll a cada sección
-
-FAQ tiene mucho aire debajo
+Link menu mobie tiene que cerrar el menú

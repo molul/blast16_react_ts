@@ -21,7 +21,7 @@ const MenuMobile = () => {
           <MenuButton toggleMenu={toggleMenu} open={mobileNavOpen} />
         </div>
 
-        <MenuMobileContent open={mobileNavOpen} />
+        <MenuMobileContent open={mobileNavOpen} toggleMenu={toggleMenu} />
       </div>
     </>
   );
