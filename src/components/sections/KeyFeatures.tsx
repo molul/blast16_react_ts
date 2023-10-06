@@ -6,10 +6,10 @@ const KeyFeatures = () => {
     <section className="space-y-8 ">
       <Title text="Key features" />
 
-      <div className="break-words bg-black bg-opacity-50 p-4 rounded-lg">
-        <div className="divide-y divide-white space-y-4 pb-4">
+      <div className="break-words bg-black bg-opacity-50 px-4 py-2 rounded-lg">
+        <div className="divide-y divide-white space-y-4 ">
           {features.key.map((feat, index) => (
-            <div key={index}>{feat}</div>
+            <div key={index} className="py-2x>{feat}</div>
           ))}
         </div>
       </div>
