@@ -19,7 +19,7 @@ const MenuSticky = () => {
   return (
     <div
       className={`
-			z-50
+				z-50
 				fixed
 				w-full
 				h-24

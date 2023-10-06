@@ -23,7 +23,7 @@ const MenuItem = ({ text, url, target = "_self", toggleMenu }: Props) => {
   };
   return (
     <>
-      <div className="uppercase font-bold text-lg pr-6 lg:pr-0">
+      <div className="uppercase font-bold text-base xl:text-lg pr-6 lg:pr-0">
         {!url.includes("#") ? (
           <a
             href={url}
