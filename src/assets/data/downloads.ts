@@ -106,7 +106,7 @@ export const downloads = [
       {
         name: "European Mega Drive",
         icon: "link",
-        size: null,
+        size: "",
         url: "https://emumovies.com/files/file/2337-mega-drive-europesouth-america-2d-front-boxart/",
       },
       {
