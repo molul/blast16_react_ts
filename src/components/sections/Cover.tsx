@@ -14,7 +14,7 @@ const Cover = () => {
   };
 
   return (
-    <section>
+    <section id="home">
       <div className="space-y-4">
         <div className="">
           <strong>Blast 16</strong> is an emulator frontend for Raspberry Pi
