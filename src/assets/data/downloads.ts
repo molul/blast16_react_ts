@@ -25,18 +25,7 @@ export const downloads = [
     ],
   },
   {
-    title: "Changelog",
-    files: [
-      {
-        name: "Changelog",
-        icon: "txt",
-        size: "14.5KB",
-        url: blast16Path + "doc/changelog-blast16.txt",
-      },
-    ],
-  },
-  {
-    title: "User manual",
+    title: "Doc",
     files: [
       {
         name: "User Manual (English)",
@@ -50,10 +39,16 @@ export const downloads = [
         size: "500KB",
         url: blast16Path + "doc/Blast16_-_User_Manual_(German).pdf",
       },
+      {
+        name: "Changelog",
+        icon: "txt",
+        size: "14.5KB",
+        url: blast16Path + "doc/changelog-blast16.txt",
+      },
     ],
   },
   {
-    title: "CUSTOM OVERLAY KIT",
+    title: "Misc",
     files: [
       {
         name: "Custom overlay kit",
@@ -62,30 +57,6 @@ export const downloads = [
         size: "510KB",
         url: blast16Path + "misc/blast16_overlay kit.zip",
       },
-    ],
-  },
-  // {
-  //   title: "Previous build (1.0.17-20191231)",
-  //   files: [
-  //     {
-  //       name: "SD Card",
-  //       icon: "zip",
-  //       size: "1.3GB",
-  //       url: blast16Path + "releases/old/blast16_release-1.0.17-20191231.zip",
-  //     },
-  //     {
-  //       name: "USB updates",
-  //       icon: "zip",
-  //       size: "16.3MB",
-  //       url:
-  //         blast16Path +
-  //         "releases/old/blast16_release-1.0.17-20191231_(USB_update).zip",
-  //     },
-  //   ],
-  // },
-  {
-    title: "RETROARCH SOURCE CODE (1.7.8)",
-    files: [
       {
         name: "Retroarch source code",
         icon: "zip",
@@ -136,12 +107,3 @@ export const downloads = [
     ],
   },
 ];
-/*
-name
-icon ->  txt pdf zip link
-size 
-
-export const estadosOptions = [
-    {value: 'no-disponible', label: 'No disponible'},
-];
-*/
