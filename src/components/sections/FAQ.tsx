@@ -3,7 +3,9 @@ import Title from "../Title";
 
 const FAQ = () => {
   return (
-    <section className="space-y-8 ">
+    <div>
+      <section id="faq" />
+
       <Title text="FAQ" />
 
       <div className="break-words space-y-6">
@@ -17,7 +19,7 @@ const FAQ = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

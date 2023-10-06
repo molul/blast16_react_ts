@@ -9,7 +9,7 @@ import Screenshots from "./sections/Screenshots";
 const Content = () => {
   return (
     <div className="flex flex-1 justify-center w-full p-4 lg:p-12 mt-20 lg:mt-0">
-      <div className="w-full max-w-6xl space-y-16 py-4">
+      <div className="w-full max-w-6xl space-y-24 py-4">
         <Cover />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
