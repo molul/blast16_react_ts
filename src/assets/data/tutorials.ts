@@ -45,7 +45,7 @@ export const tutorials = [
       {
         type: "pdf",
         text: "Guía de inicio rápido oficial",
-        url: "/doc/Blast16_-_Gu%c3%ada_de_inicio_r%c3%a1pido.pdf",
+        url: "/doc/Blast16_-_Guia_de_inicio_rapido.pdf",
       },
       {
         type: "video",
