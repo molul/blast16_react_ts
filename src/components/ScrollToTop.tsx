@@ -23,15 +23,12 @@ const ScrollToTopButton = () => {
 
   return (
     <>
-      {showButton && (
-        <div className="">
-          <button
-            aria-label="Subir al principio de la página"
-            className={`
+      <div className="">
+        <button
+          aria-label="Subir al principio de la página"
+          className={`
 							fixed 
 							bottom-3
-							right-3
-							z-50 
 							cursor-pointer 
 							w-10
 							h-10
@@ -48,15 +45,17 @@ const ScrollToTopButton = () => {
 							flex
 							items-center
 							justify-center
+							z-50
+							right-3
+							${showButton ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"}
 						`}
-            onClick={handleScrollToTop}
-          >
-            <IconContext.Provider value={{ className: "" }}>
-              <FaArrowUp />
-            </IconContext.Provider>
-          </button>
-        </div>
-      )}
+          onClick={handleScrollToTop}
+        >
+          <IconContext.Provider value={{ className: "" }}>
+            <FaArrowUp />
+          </IconContext.Provider>
+        </button>
+      </div>
     </>
   );
 };
