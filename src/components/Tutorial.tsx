@@ -1,9 +1,5 @@
 import { FaYoutube } from "react-icons/fa";
-import {
-   BsFiletypePdf, 
-   BsLink45Deg, 
- } from "react-icons/bs";
-
+import { BsFiletypePdf, BsLink45Deg } from "react-icons/bs";
 
 interface TutorialData {
   type: string;
