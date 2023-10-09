@@ -27,7 +27,7 @@ const Tutorial = ({ language, data }: Props) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {data.map((item, index) => {
             return (
-              <div key={index} className="flex space-x-3 items-center">
+              <div key={index} className="flex space-x-3 items-start">
                 <div>
                   {item.type === "pdf" && <BsFiletypePdf size={25} />}
                   {item.type === "video" && <FaYoutube size={25} />}
