@@ -1,6 +1,9 @@
-import { FaFilePdf } from "react-icons/fa6";
-import { HiDocumentText } from "react-icons/hi";
 import { FaYoutube } from "react-icons/fa";
+import {
+   BsFiletypePdf, 
+   BsLink45Deg, 
+ } from "react-icons/bs";
+
 
 interface TutorialData {
   type: string;
@@ -26,9 +29,9 @@ const Tutorial = ({ language, data }: Props) => {
             return (
               <div key={index} className="flex space-x-3 items-center">
                 <div>
-                  {item.type === "pdf" && <FaFilePdf size={25} />}
+                  {item.type === "pdf" && <BsFiletypePdf size={25} />}
                   {item.type === "video" && <FaYoutube size={25} />}
-                  {item.type === "post" && <HiDocumentText size={25} />}
+                  {item.type === "post" && <BsLink45Deg size={25} />}
                 </div>
                 <div>
                   <a href={item.url} target="_blank">
