@@ -16,7 +16,7 @@ const properties = {
     </button>
   ),
   nextArrow: (
-    <button className="-mr-8 md:-mr-16 flex items-center justify-center bg-primary rounded-full opacity-80">
+    <button className="-mr-8 md:-mr-16 flex items-center justify-center bg-primary rounded-full opacity-80 ">
       <IconContext.Provider
         value={{ className: "w-6 h-6 md:w-10 md:h-10 lg:w-12 lg:h-12" }}
       >
