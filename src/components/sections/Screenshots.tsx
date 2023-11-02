@@ -41,7 +41,7 @@ const Screenshots = () => {
     <div className="">
       <Title text="Screenshots" />
 
-      <div className="slide-container w-full px-8 md:px-16 ">
+      <div className="slide-container w-full px-8 md:px-80 ">
         <Slide {...properties}>
           {slideImages.map((slideImage, index) => (
             <div key={index} className="flex">
