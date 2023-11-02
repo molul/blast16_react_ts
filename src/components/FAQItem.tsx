@@ -22,7 +22,7 @@ const FAQItem = ({ q, a }: Props) => {
       />
 
       <SmoothCollapse expanded={itemOpen} allowOverflowWhenOpen>
-        <div className="border-t pt-2">A: {a}</div>
+        <div className="border-t pt-2 ">A: {a}</div>
       </SmoothCollapse>
     </>
   );
