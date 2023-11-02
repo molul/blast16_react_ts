@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 
 const properties = {
   prevArrow: (
-    <button className="ml-2 md:ml-4 flex items-center justify-center bg-primary rounded-full opacity-80">
+    <button className="-ml-8 md:-ml-16 flex items-center justify-center bg-primary rounded-full opacity-80">
       <IconContext.Provider
         value={{ className: "w-6 h-6 md:w-10 md:h-10 lg:w-12 lg:h-12" }}
       >
@@ -16,7 +16,7 @@ const properties = {
     </button>
   ),
   nextArrow: (
-    <button className="mr-2 md:mr-4 flex items-center justify-center bg-primary rounded-full opacity-80">
+    <button className="-mr-8 md:-mr-16 flex items-center justify-center bg-primary rounded-full opacity-80">
       <IconContext.Provider
         value={{ className: "w-6 h-6 md:w-10 md:h-10 lg:w-12 lg:h-12" }}
       >
@@ -41,7 +41,7 @@ const Screenshots = () => {
     <div className="">
       <Title text="Screenshots" />
 
-      <div className="slide-container w-full">
+      <div className="slide-container w-full px-8 md:px-16">
         <Slide {...properties}>
           {slideImages.map((slideImage, index) => (
             <div key={index} className="flex">
