@@ -9,7 +9,7 @@ const FAQ = () => {
 
       <Title text="FAQ" />
 
-      <div className="break-words space-y-4">
+      <div className="break-words space-y-4 ">
         {faq.map((item, index) => (
           <div
             key={index}
