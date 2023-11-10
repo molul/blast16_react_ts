@@ -43,7 +43,7 @@ export const DownloadFile = ({ data }: Props) => {
                 "border-2 px-2 rounded border-primary text-primary bg-primary bg-opacity-20",
             }}
           >
-            <a href={data.url} download>
+            <a href={data.url} target="_blank" download>
               <div>
                 {data.icon === "link" ? (
                   <>
