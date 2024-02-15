@@ -1,5 +1,22 @@
 export const faq = [
   {
+    q: "I flashed the image and Blast16 won't launch",
+    a: (
+      <>
+        This has been recently reported by some users, and apparently it's
+        caused on recent Raspberry Pi 3B+ models.
+        <br />
+        <br />
+        The current solution is manually copying a few files to your Raspberry.
+        Find "Fix for newest RPi 3B+ models" in Downloads, download the file and
+        follow the instructions in the README.txt file inside.
+        <br />
+        <br />A new Blast16 version will be released as soon as possible,
+        containing this fix.
+      </>
+    ),
+  },
+  {
     q: "I added a lot of ROMs and the screen is blinking. What's happening?",
     a: (
       <>
