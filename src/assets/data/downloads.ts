@@ -22,6 +22,14 @@ export const downloads = [
           blast16Path +
           "releases/blast16_release-1.0.18-20200118_(USB_update).zip",
       },
+      {
+        name: "Fix for newest RPi 3B+ models",
+        description:
+          "If you have a new RPi 3B+ model and Blast16 doesn't launch, download this file and follow the README.txt inside. A new Blast16 version will be eventually uploaded to automate this process",
+        icon: "zip",
+        size: "12.8MB",
+        url: "files/fix_blast16.zip",
+      },
     ],
   },
   {
